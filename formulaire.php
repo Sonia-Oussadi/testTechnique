@@ -21,7 +21,7 @@ echo '<nav class="navbar navbar-expand-sm bg-light navbar-light"><ul class ="nav
         die('Erreur : ' . $e->getMessage());
    }
 
-// l'affichage de la table etdiant avec un lien pour la saisie des notes 
+// l'affichage de la table etudiant avec un lien pour la saisie des notes 
 $req1 = $bdd->prepare('SELECT * FROM etudiant');
 $req1->execute();
 echo '<table class="table table-borderless table-dark">
